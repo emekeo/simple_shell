@@ -19,8 +19,9 @@ unsigned int check_match(char c, const char *str)
 }
 
 /**
- * new_strtok - custom strtok
- * @str: string to tokenize
+ * new_strtok - custom strtok(string_tokenization)
+ * @str: string to tokenize:wq
+ *
  * @delim: delimiter to tokenize against
  *
  * Return: the pointer to the next token or the NULL
