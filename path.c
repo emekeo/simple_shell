@@ -1,8 +1,10 @@
 #include "shell.h"
 
 /**
+ *
  * path_execute - executes a command in the path
  * @command: gives full path to the command
+ * 
  * @vars: is a pointer to struct of variables
  *
  * Return: 0 on succcess, 1 on failure
