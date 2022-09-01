@@ -7,7 +7,7 @@
  * @ptr: pointer to the old array
  *
  * @size: pointer to number of elements in the old array
- *
+ * memory leak fixing 
  * Return: The pointer to the new array
  */
 char **_realloc(char **ptr, size_t *size)
