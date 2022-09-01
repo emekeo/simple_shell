@@ -35,7 +35,7 @@ typedef struct variables
 /**
  * struct builtins - struct for the builtin functions
  * @name: name of builtin command
- * @f: function for corresponding builtin
+ * @f: function for corresponding builtins
  */
 typedef struct builtins
 {
