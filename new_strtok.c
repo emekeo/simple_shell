@@ -23,7 +23,7 @@ unsigned int check_match(char c, const char *str)
  * @str: string to tokenize
  * @delim: delimiter to tokenize against
  *
- * Return: pointer to the next token or NULL
+ * Return: the pointer to the next token or the NULL
  */
 char *new_strtok(char *str, const char *delim)
 {
