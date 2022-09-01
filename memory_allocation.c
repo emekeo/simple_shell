@@ -1,7 +1,8 @@
 #include "shell.h"
 
 /**
- * 
+ * Brief explanation of the codes for re_allocation
+ *
  * _realloc - function reallocates a pointer to double the space
  * @ptr: pointer to the old array
  *
