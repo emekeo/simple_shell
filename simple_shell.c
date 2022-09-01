@@ -1,6 +1,6 @@
 #include "shell.h"
 
-/* global variable for ^C handling */
+/* global variable for C handling */
 unsigned int sig_flag;
 
 /**
@@ -22,7 +22,7 @@ static void sig_handler(int uuv)
  * main - main_function for the shell
  * @argc: number of arguments passed to main
  * @argv: array of arguments passed to main
- * @environment: array of environment variables
+ * @environment: Array of environment variables
  *
  * Return: 0 or exit status, or ?
  */
