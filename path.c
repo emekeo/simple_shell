@@ -2,8 +2,8 @@
 
 /**
  * path_execute - executes a command in the path
- * @command: full path to the command
- * @vars: pointer to struct of variables
+ * @command: gives full path to the command
+ * @vars: is a pointer to struct of variables
  *
  * Return: 0 on succcess, 1 on failure
  */
