@@ -7,4 +7,12 @@
  *
  * Return: void
  */
+void print_error(vars_t *vars, char *msg)
+{
+	char *count;
 
+	_puts2(vars->argv[0]);
+	_puts2(": ");
+	count = _uitoa(vars->count);
+	_puts2(count);
+	free(count);
