@@ -15,4 +15,33 @@ void print_error(vars_t *vars, char *msg)
 	_puts2(": ");
 	count = _uitoa(vars->count);
 	_puts2(count);
-	free(count);
+	free(count)
+	_puts2(": ");
+	_puts2(vars->av[0]);
+	if (msg)
+	{
+		_puts2(msg);
+	}
+	else
+		perror("");
+}
+
+/**
+ * _puts2 - prints a string to standard error
+ * @str: string to print
+ *
+ * Return: void
+ */
+void _puts2(char *str)
+{
+	ssize_t num, len;
+
+	num = _strlen(str);
+	len = write(STDERR_FILENO, str, num);
+	if (len != num)
+	{
+		perror("Fatal Error");
+		exit(1);
+	}
+
+}
