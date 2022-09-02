@@ -5,7 +5,7 @@
  * @buffer: Buffer to tokenize
  * @delimiter: Delimiter to tokenize along
  *
- * Return: pointer to an array of pointers to the tokens
+ * Return: A pointer to an array of pointers to the tokens
  */
 char **tokenize(char *buffer, char *delimiter)
 {
