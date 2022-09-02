@@ -105,9 +105,9 @@ char *_strcat(char *strc1, char *strc2)
 }
 
 /**
- * _strlen - returns the length of a string
+ * _strlen - Returns the length of a string
  * @str: string to be measured
- * Return: length of string
+ * Return: Length of string
  */
 unsigned int _strlen(char *str)
 {
